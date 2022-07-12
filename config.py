@@ -1,0 +1,2 @@
+BOT_TOKEN = '5324843306:AAHU0HP1IaPUnCVKHkEW9ZPQzF7_EUTZb9U'
+APP_URL = 'https://tgbottester2.herokuapp.com/' + BOT_TOKEN
