@@ -23,7 +23,9 @@ def update_messages_count(user_id):
 def start(message):
     user_id = message.from_user.id
     username = message.from_user.username
-    bot.reply_to(message, f'Hii, {username}')
+    bot.reply_to(message, f'''Здравствуйте, {username}
+Вас привествует бот для заказа компрессионого белья от Silimed
+C чего начнем?''')
 
     db_object.execute(f"SELECT id FROM users WHERE id = {user_id}")
     result = db_object.fetchone()
